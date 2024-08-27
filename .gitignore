@@ -1,0 +1,4 @@
+/src/logger/config_wandb.py
+/wandb
+/wandb/*
+/test.ipynb
