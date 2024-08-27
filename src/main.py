@@ -68,7 +68,7 @@ def main(args):
     
     logging.info('*' * overall_config.LINE_STARS)
     logging.info(f"Config: Model Type - {args.model_type} | Batch Size - {args.batch_size} | Augmentation - {args.data_augmentation} | "
-                 f"Scheduler - {args.scheduler} | Learing Rate - {args.learning_rate} | Weight Decay - {args.weight_decay} | Gamma - {args.gamma} |")
+                 f"Scheduler - {args.scheduler} | Learning Rate - {args.learning_rate} | Weight Decay - {args.weight_decay} | Gamma - {args.gamma} |")
     logging.info('*' * overall_config.LINE_STARS)
     
     ############################## Training ################################
